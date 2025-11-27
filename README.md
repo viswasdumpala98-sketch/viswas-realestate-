@@ -45,7 +45,7 @@ Link: https://viswas-realestate-site.netlify.app/
 About us
 ![image alt](https://github.com/viswasdumpala98-sketch/viswas-realestate-/blob/4d154641b29f04b7cd70c2fb95cf6bccb793566f/Screenshot%202025-11-27%20205736.png)
 Properties section
-![image alt]()
+![image alt](https://github.com/viswasdumpala98-sketch/viswas-realestate-/blob/5bc73488bb824127c3c0c1928a4113ddeb7426f8/Screenshot%202025-11-27%20205757.png)
 Testimonal Section
 ![image alt]()
 Contact Section
