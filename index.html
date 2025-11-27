@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Real Estate</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#">
+        <img src="img/logo.webp" alt="logo" class="header-logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="#about" class="nav-links">About</a>
+        <a href="#properties" class="nav-links">Properties</a>
+        <a href="#testimonial" class="nav-links">Testimonial</a>
+        <a href="#contact" class="nav-links">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="main">
+      <section class="section hero">
+        <div class="hero-container">
+          <h1 class="primary-heading">Find your Dream Home!</h1>
+
+          <p class="hero-description">
+            As a leading real estate firm, we help clients purchase homes with
+            expert guidance, smooth process, and the best deals.
+          </p>
+
+          <a href="#properties" class="btn btn-properties">Properties</a>
+          <a href="#contact" class="btn btn-contact">Contact →</a>
+
+          <p class="hero-prices">Price Starts at</p>
+          <h3 class="hero-price">₹25,00,000+</h3>
+        </div>
+
+        <div class="hero-img-container">
+          <img src="img/houses/hero.webp" alt="House" class="hero-img" />
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <h2 class="secondary-heading">We Handle Everything</h2>
+
+        <p class="hero-description about-description">
+          From price negotiation to paperwork, we manage the entire home buying
+          journey for you.
+        </p>
+
+        <div class="about-container">
+          <div class="about-box">
+            <ion-icon name="home-outline" class="about-logo"></ion-icon>
+            <h3 class="about-heading">Home Appraisal</h3>
+            <p class="about-box-description">
+              Accurate property valuation with expert analysis.
+            </p>
+          </div>
+
+          <div class="about-box">
+            <ion-icon name="people-outline" class="about-logo"></ion-icon>
+            <h3 class="about-heading">Price Negotiation</h3>
+            <p class="about-box-description">
+              Best deal guarantees with expert negotiation.
+            </p>
+          </div>
+
+          <div class="about-box">
+            <ion-icon name="newspaper-outline" class="about-logo"></ion-icon>
+            <h3 class="about-heading">Paperwork Handling</h3>
+            <p class="about-box-description">
+              Legal documents handled with complete precision.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Properties -->
+      <section class="section" id="properties">
+        <h2 class="secondary-heading">Our Featured Properties</h2>
+
+        <p class="hero-description about-description">
+          Explore premium houses designed for modern families.
+        </p>
+
+        <div class="properties-set">
+          <!-- Property 1 -->
+          <div class="properties-card container-card">
+            <img
+              src="img/houses/delux.webp"
+              alt="house"
+              class="properties-img"
+            />
+
+            <div class="properties-container">
+              <p class="properties-loc">
+                <ion-icon name="location-outline"></ion-icon>Bengaluru, India
+              </p>
+
+              <h3 class="ternary-heading">Best Delux Home</h3>
+              <h3 class="hero-price properties-price">₹67,00,000</h3>
+
+              <div class="properties-card-container">
+                <div class="properties-cards">
+                  <ion-icon name="bed-outline"></ion-icon>3 Bedrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="water-outline"></ion-icon>4 Bathrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="golf-outline"></ion-icon>1024 sq ft
+                </div>
+              </div>
+
+              <p class="properties-description">
+                Surrounded by greenery, near metro, park & hospitals—perfect for
+                families.
+              </p>
+
+              <div class="properties-list-links">
+                <a href="#" class="btn properties-link">Take a Tour →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Property 2 -->
+          <div class="properties-card container-card">
+            <div class="properties-container">
+              <p class="properties-loc">
+                <ion-icon name="location-outline"></ion-icon>Mumbai, India
+              </p>
+
+              <h3 class="ternary-heading">Penthouse Duplex</h3>
+              <h3 class="hero-price properties-price">₹84,00,000</h3>
+
+              <div class="properties-card-container">
+                <div class="properties-cards">
+                  <ion-icon name="bed-outline"></ion-icon>3 Bedrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="water-outline"></ion-icon>3 Bathrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="golf-outline"></ion-icon>2048 sq ft
+                </div>
+              </div>
+
+              <p class="properties-description">
+                Safe, luxurious, spacious 4-bedroom home with private parking.
+              </p>
+
+              <div class="properties-list-links">
+                <a href="#" class="btn properties-link">Take a Tour →</a>
+              </div>
+            </div>
+
+            <img
+              src="img/houses/pent-house.webp"
+              alt="house"
+              class="properties-img properties-right"
+            />
+          </div>
+
+          <!-- Property 3 -->
+          <div class="properties-card container-card">
+            <img
+              src="img/houses/family-house.webp"
+              alt="house"
+              class="properties-img"
+            />
+
+            <div class="properties-container">
+              <p class="properties-loc">
+                <ion-icon name="location-outline"></ionicon>Delhi, India
+              </p>
+
+              <h3 class="ternary-heading">Family House</h3>
+              <h3 class="hero-price properties-price">₹48,00,000</h3>
+
+              <div class="properties-card-container">
+                <div class="properties-cards">
+                  <ion-icon name="bed-outline"></ion-icon>4 Bedrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="water-outline"></ionicon>4 Bathrooms
+                </div>
+                <div class="properties-cards">
+                  <ion-icon name="golf-outline"></ionicon>1024 sq ft
+                </div>
+              </div>
+
+              <p class="properties-description">
+                Peaceful, safe home near metro, park & temples—ideal for modern
+                families.
+              </p>
+
+              <div class="properties-list-links">
+                <a href="#" class="btn properties-link">Take a Tour →</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="properties-more">See more houses →</a>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonial">
+        <h2 class="secondary-heading">What Clients Say</h2>
+
+        <div class="testimonial-container">
+          <div class="testimonial-box">
+            <div class="testimonial-card">
+              <img
+                src="img/testimonial/people-1.webp"
+                alt="people"
+                class="testimonial-img"
+              />
+              <p class="testimonial-description">
+                “Our house sale was smooth and fast thanks to their amazing
+                service.”
+              </p>
+              <p class="testimonial-author">— Mia cedric</p>
+            </div>
+
+            <div class="testimonial-card">
+              <img
+                src="img/testimonial/people-2.webp"
+                alt="people"
+                class="testimonial-img"
+              />
+              <p class="testimonial-description">
+                “They exceeded expectations & helped us get the best price.”
+              </p>
+              <p class="testimonial-author">— Michael Rodriguez</p>
+            </div>
+
+            <div class="testimonial-card">
+              <img
+                src="img/testimonial/people-3.webp"
+                alt="people"
+                class="testimonial-img"
+              />
+              <p class="testimonial-description">
+                “Professional team, smart strategies—excellent experience.”
+              </p>
+              <p class="testimonial-author">— James Miller</p>
+            </div>
+
+            <div class="testimonial-card">
+              <img
+                src="img/testimonial/people-4.webp"
+                alt="people"
+                class="testimonial-img"
+              />
+              <p class="testimonial-description">
+                “Highly recommended for home buyers and sellers.”
+              </p>
+              <p class="testimonial-author">— David Martinez</p>
+            </div>
+          </div>
+
+          <div class="testimonial-box img-box">
+            <div class="testimonial-photo-box">
+              <img
+                src="img/houses/testimonial/houses-1.webp"
+                alt="house"
+                class="testimonial-photo"
+              />
+            </div>
+            <div class="testimonial-photo-box">
+              <img
+                src="img/houses/testimonial/houses-2.webp"
+                alt="house"
+                class="testimonial-photo"
+              />
+            </div>
+            <div class="testimonial-photo-box">
+              <img
+                src="img/houses/testimonial/houses-3.webp"
+                alt="house"
+                class="testimonial-photo"
+              />
+            </div>
+            <div class="testimonial-photo-box">
+              <img
+                src="img/houses/testimonial/houses-4.webp"
+                alt="house"
+                class="testimonial-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section" id="contact">
+        <h2 class="secondary-heading contact-heading">Get In Touch With Us</h2>
+
+        <div class="contact-container">
+          <div class="contact-box">
+            <label class="contact-label">Full Name</label>
+            <input
+              type="text"
+              class="contact-input"
+              placeholder="Viswas Dumpala"
+            />
+          </div>
+
+          <div class="contact-box">
+            <label class="contact-label">Email Address</label>
+            <input
+              type="email"
+              class="contact-input"
+              placeholder="viswasdumpala@example.com"
+            />
+          </div>
+
+          <div class="contact-box contact-house">
+            <label class="contact-label">I'm Looking For</label>
+            <input
+              type="text"
+              class="contact-input"
+              placeholder="3 Bedroom Villa"
+            />
+          </div>
+
+          <div class="contact-box contact-house">
+            <label class="contact-label">Message</label>
+            <textarea
+              class="contact-input"
+              rows="8"
+              placeholder="Please write in brief..."
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="contact-link">
+          <a href="#" class="btn properties-link">Send Message →</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="#">
+          <img src="img/logo.webp" alt="logo" class="footer-logo" />
+        </a>
+        <p class="copyright">
+          © 2024 - All rights reserved by Viswas Dumpala
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
