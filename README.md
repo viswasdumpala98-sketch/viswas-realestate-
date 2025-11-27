@@ -40,13 +40,4 @@ Open the `index.html` file in your preferred web browser to view the landing pag
 Link: https://viswas-realestate-site.netlify.app/
 
 ## Screenshots
-### **1. Hero Section**: 
-![alt text](./img/readme/hero.png)
-### **2. About Section**:
-![alt text](./img/readme/about.png)
-### **3. Properties Section**:
-![alt text](./img/readme/properties.png)
-### **4. Testimonial Section**:
-![alt text](./img/readme/testimonial.png)
-### **5. Contact Section**:
-![alt text](./img/readme/contact.png)
+
