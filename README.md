@@ -41,7 +41,7 @@ Link: https://viswas-realestate-site.netlify.app/
 
 ## Screenshots
 *Hero section*
-![image alt]()
+![image alt](https://github.com/viswasdumpala98-sketch/viswas-realestate-/blob/1c5374abed7806c19ddfbd8327ba2f2a62aeae6c/Screenshot%202025-11-27%20205708.png)
 About us
 ![image alt]()
 Properties section
